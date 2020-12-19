@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Itim", cursive;
+}
+
+body {
+  background-color: #bbb4b4;
+  background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+
+header {
+  color: #edddd4;
+  background-color: #14213d;
+  margin: auto auto;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #14213d;
+  bottom: 0;
+  height: 2.5rem;
+  position: absolute;
+  width: 100%;
+  color: #edddd4;
+}
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fdcb6e;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+form.create-note input,
+textarea {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  outline: none;
+  font-size: 1.5em;
+  font-family: inherit;
+  resize: none;
+  background: transparent;
+}
+form.create-note button {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+  background: #14213d;
+  color: #fdcb6e;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.note {
+  color: #14213d;
+  background-color: #fdcb6e;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px #edddd4;
+  width: 240px;
+  margin: 32px;
+  float: left;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.note:hover {
+  opacity: 1;
+}
+
+.note h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+.note p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  border: none;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  border: none;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: #fdcb6e;
+  background-color: #14213d;
+  opacity: 1;
+  margin-right: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
